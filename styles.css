@@ -1,0 +1,95 @@
+body {
+    background: url("https://hcdevilsadvocate.com/wp-content/uploads/2019/01/netflix-background-9-900x506.jpg") no-repeat center center fixed; 
+    background-size: cover;
+  }
+
+.header {
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  /* Style the header links */
+  .header div {
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  .sub-header{
+      text-align: center;
+      color: white;
+      display: block;
+      font-size: 2em;
+  }
+
+  .btn{
+    text-align: center;
+    margin-left:400px;
+    font-size: xx-large;
+}
+
+
+  .sub-header p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+  .header .login-container {
+    float: right;
+  }
+  
+  .header .login-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 45px;
+    margin-right: 45px;
+    background: rgb(221, 6, 6);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    width: 80px;
+    border-radius: 4px;
+  }
+
+.sub-header form {
+    float: none;
+    padding: 0px;
+    margin: 20px 20px 20px 250px;
+    background:transparent;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    display: block;
+  }
+
+  .sub-header input[type=text] {
+    padding: 25px;
+    margin-top: 2px;
+    margin-right: 0px;
+    font-size: 17px;
+    border: none;
+    width: 37%; /* adjust as needed (as long as it doesn't break the topnav) */
+  }
+  .sub-header button {
+    float: none;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 8px;
+    margin-right: 400px;
+    margin-left: 0px;
+    background: #ddd;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    background-color: red;
+    color:white;
+  }
